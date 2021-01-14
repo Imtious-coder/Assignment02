@@ -18,7 +18,7 @@
     text-transform: uppercase;
 }
 .buy-now-button{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     padding: 10px;
     border-radius: 10px;
@@ -29,4 +29,26 @@
 }
 .buy-now-button img{
     width: 25px;
+}
+
+.img-bg1{
+    border-radius: 10px;
+    padding: 40px 30px;
+    height:320px;
+    margin: 15px;
+    background-color: #F1F1F1;
+}
+.img-bg2{
+    border-radius: 10px;
+    padding: 50px 80px;
+    height:320px;
+    margin: 15px;
+    background-color: #F1F1F1;
+}
+.img-bg3{
+    border-radius: 10px;
+    padding: 20px 30px;
+    height:320px;
+    margin: 15px;
+    background-color: #F1F1F1;
 }
