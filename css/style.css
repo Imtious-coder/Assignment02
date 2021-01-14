@@ -1,0 +1,32 @@
+#brand-logo{
+    width: 290px;
+    height: 40px;
+}
+.menu{
+    margin-right: 10px;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 500;
+}
+.welcome-image{
+    width: 100%;
+    margin-top: 20px;
+}
+.welcome-heading{
+    font-size: 72px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.buy-now-button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #97ad3e;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.buy-now-button img{
+    width: 25px;
+}
