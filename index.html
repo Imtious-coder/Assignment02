@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<!-- This is the navbar -->
   <nav style="background-color: #FFFBF0;">
     <section class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -28,20 +28,22 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active menu" aria-current="page" href="#">Home</a>
-              <a class="nav-link menu" href="#">Product</a>
-              <a class="nav-link menu" href="#">About us</a>
-              <a class="nav-link menu" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+              <a class="nav-link menu" href="#products">Product</a>
+              <a class="nav-link menu" href="#about-us">About us</a>
+              <a class="nav-link menu" href="#contact-us" tabindex="-1" aria-disabled="true">Contact us</a>
             </div>
           </div>
         </div>
       </nav>
     </section>
   </nav>
-
+<!-- This is welcome section -->
   <main style="background-color: rgba(234, 192, 253, 0.192); padding-bottom: 100px;">
     <section style="background-color: #FFFBF0; padding-bottom: 50px;">
       <div class="container mb-5">
         <div class="row  align-items-center">
+
+            <!-- left side of welcome section(Texts & button) -->
           <div class="col-md-7">
             <h1 class="welcome-heading"><span style="color: #FABE4C;">Be the Penguins</span><br>
               <span style="color: #363958;">Of Winter</span>
@@ -53,6 +55,8 @@
               Buy Now
             </div>
           </div>
+
+            <!-- Right side of welcome section(Image) -->
           <div class="col-md-5">
             <img class="welcome-image" src="image/Background.png">
           </div>
@@ -60,9 +64,12 @@
       </div>
     </section>
 
-    <section class="container mt-5">
+
+<!-- This is woman cards section -->
+    <section id="products" class="container mt-5">
       <h3 style="font-size: 38px; text-transform: uppercase; font-family: 'Bebas Neue', cursive;">Woman Jacket</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Card-1 -->
         <div class="col">
           <div class="card h-100 shadow border-0 rounded">
             <div class="d-flex justify-content-center img-bg1">
@@ -82,6 +89,7 @@
             </div>
           </div>
         </div>
+        <!-- Card-2 -->
         <div class="col">
           <div class="card h-100 shadow border-0 rounded">
             <div class="d-flex justify-content-center img-bg2">
@@ -101,6 +109,7 @@
             </div>
           </div>
         </div>
+        <!-- Card-3 -->
         <div class="col">
           <div class="card h-100 shadow border-0 rounded">
             <div class="d-flex justify-content-center img-bg3">
@@ -123,9 +132,12 @@
       </div>
     </section>
 
+
+<!-- This is mans card section -->
     <section class="container mt-5">
       <h3 style="font-size: 38px; text-transform: uppercase; font-family: 'Bebas Neue', cursive;">Man Jacket</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!--  Card-1 -->
         <div class="col">
           <div class="card h-100 shadow border-0 rounded">
             <div class="d-flex justify-content-center img-bg1">
@@ -145,6 +157,7 @@
             </div>
           </div>
         </div>
+        <!--  Card-2 -->
         <div class="col">
           <div class="card h-100 shadow border-0 rounded">
             <div class="d-flex justify-content-center img-bg2">
@@ -164,6 +177,7 @@
             </div>
           </div>
         </div>
+        <!--  Card-3 -->
         <div class="col">
           <div class="card h-100 shadow border-0 rounded">
             <div class="d-flex justify-content-center img-bg3">
@@ -187,10 +201,13 @@
     </section>
   </main>
 
-  <footer class="container">
-    <section class="mt-5 d-flex row">
 
+<!-- This is options section -->
+  <footer id="about-us" class="container">
+    <section class="mt-5 d-flex row">
+        <!-- Left side(Options) -->
       <div class=" col-sm-12 col-md-5">
+        <!-- Option-1 -->
         <div class="options shadow d-flex row">
           <div class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center">
             <img class="footer-logo" src="image/Logo, Icon/image 12.png">
@@ -201,6 +218,7 @@
               offer styles for every body.</p>
           </div>
         </div>
+        <!-- Option-2 -->
         <div class="options shadow d-flex row">
           <div class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center">
             <img class="footer-logo" src="image/Logo, Icon/image 13.png">
@@ -211,6 +229,7 @@
               with peace of mind.</p>
           </div>
         </div>
+        <!-- Option-3 -->
         <div class="options shadow d-flex row">
           <div class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center">
             <img class="footer-logo" src="image/Logo, Icon/image 14.png">
@@ -222,14 +241,17 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-1"></div>
+
+      <!-- Right side(Image) -->
       <div class="col-sm-12 col-md-6">
         <img src="image/Logo, Icon/XMLID 1.png" style="width: 100%;">
       </div>
     </section>
   </footer>
-
-  <div class="extra-section">
+<!-- This is extra section added -->
+  <div id="contact-us" class="extra-section">
     <section class=" container mt-5">
       <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4 position-relative">
@@ -294,37 +316,14 @@
         </div>
       </form>
     </section>
+    <!-- This is copyright text -->
     <div>
       <p
         style="color: rgb(141, 141, 141); text-align: center; padding-bottom: 10px; padding-top: 10px; margin-bottom: 0;">
         ©2021 all rights reserved by programming hero community.</p>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- End -->
   <script src="js/bootstrap.bundle.js"></script>
 </body>
 
