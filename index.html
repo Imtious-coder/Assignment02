@@ -229,12 +229,78 @@
     </section>
   </footer>
 
-
-  <section class="container">
-    <div class="row">
-      
+  <div class="extra-section">
+    <section class=" container mt-5">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label box-name">First name</label>
+          <input style="background-color:  #3C3C3C; border: non; border: 1px solid rgb(247, 189, 0); color: white;"
+            type="text" class="form-control" id="validationTooltip01" placeholder="Arafat" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label box-name">Last name</label>
+          <input style="background-color:  #3C3C3C; border: non; border: 1px solid rgb(247, 189, 0); color: white;"
+            type="text" class="form-control" id="validationTooltip02" placeholder="Islam" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label box-name">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input style="background-color:  #3C3C3C; border: non; border: 1px solid rgb(247, 189, 0); color: white;"
+              type="text" class="form-control" placeholder="example@gmail.com" id="validationTooltipUsername"
+              aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label box-name">City</label>
+          <input style="background-color:  #3C3C3C; border: non; border: 1px solid rgb(247, 189, 0); color: white;"
+            type="text" class="form-control" id="validationTooltip03" placeholder="Kumilla" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label box-name">State</label>
+          <select style="background-color:  #3C3C3C; border: non; border: 1px solid rgb(247, 189, 0); color: white;"
+            class="form-select box-name" id="validationTooltip04" required>
+            <option style="color: rgb(134, 134, 134);">Dhaka</option>
+            <option style="color:rgb(134, 134, 134);">Chittagong</option>
+            <option style="color:rgb(134, 134, 134);">Kumilla</option>
+            <option style="color: rgb(134, 134, 134);">Cox's bazar</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label box-name">Zip</label>
+          <input style="background-color:  #3C3C3C; border: non; border: 1px solid rgb(247, 189, 0); color: white;"
+            type="text" class="form-control" placeholder="3500" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn form-button-color" type="submit">Submit form</button>
+        </div>
+      </form>
+    </section>
+    <div>
+      <p
+        style="color: rgb(141, 141, 141); text-align: center; padding-bottom: 10px; padding-top: 10px; margin-bottom: 0;">
+        ©2021 all rights reserved by programming hero community.</p>
     </div>
-  </section>
+  </div>
+
 
 
 

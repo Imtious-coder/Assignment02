@@ -1,3 +1,7 @@
+html{
+    margin: 0;
+    padding: 0;
+}
 #brand-logo{
     width: 290px;
     height: 40px;
@@ -59,4 +63,23 @@
 .options{border-radius: 10px;
     padding: 5px;
     margin-bottom: 20px;
+}
+.extra-section{
+    background-color: #3C3C3C;
+}
+.box-name{
+    color: rgba(233, 233, 233, 0.897);
+}
+.form-inputs-style{
+    background-color: #3C3C3C;
+    border-bottom: 1px solid white;
+}
+.form-select{
+    color:rgb(134, 134, 134)!important;
+}
+.form-button-color{
+    background-color: #fdce34d5!important;
+    border: 1px solid rgb(247, 189, 0)!important;
+    color: white!important;
+    font-weight: 400!important;
 }
